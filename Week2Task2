@@ -1,0 +1,9 @@
+print("Please enter your name:")
+name = input()
+name_number = int(input("I would like to tell you a joke. Please tell me your favourite number between 1 and 100? "))
+if name_number <= 35: 
+	print(name, ", Did you hear about the mathematician who is afraid of negative numbers? He will stop at nothing to avoid them.")
+elif name_number <=70:
+	print(name, ", Helvetica and Times New Roman walk into a bar. Get out of here! shouts the bartender. We do not serve your type.")
+else:
+    print(name, ", Why do we tell actors to break a leg? Because every play has a cast.")
