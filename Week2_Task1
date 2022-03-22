@@ -1,0 +1,12 @@
+import random
+value = random.randint(1, 10)
+print("Please enter your name:")
+name = input()
+print("Hello, " + name, "please enter a number between 1 and 10:")
+name_number = input()
+print("Thanks, " + name, "the number you entered was " + name_number)
+print("My random number is ", + value,)
+if name_number == value: 
+	print(name, "your number matches mine. My random number was ", value, "well done")
+else:
+	print(name, "your number did not match mine, thank you for taking part")
